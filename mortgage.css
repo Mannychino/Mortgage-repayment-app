@@ -1,0 +1,178 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: hsl(203, 41%, 72%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20vh auto;
+
+}
+
+.public-sans-uniquifier {
+    font-family: "Public Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.container {
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    /* max-width: 700px; */
+    border-radius: 25px;
+    /* padding: 2rem; */
+    font-family: "Plus Jakarta Sans", sans-serif;
+
+}
+
+.plus-jakarta-sans-uniquifier {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* layout for first design */
+.first-slide {
+    /* margin-right: 2rem; */
+    padding: 1.5rem;
+    width: 350px;
+
+}
+
+
+.mortgage-calc {
+    display: flex;
+    margin-bottom: 20px;
+    color: hsl(202, 55%, 16%);
+    font-size: 20px;
+    justify-content: space-between;
+    font-family: "Plus Jakarta Sans", sans-serif;
+
+}
+
+.clear-tag {
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+.mortgage-amount {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    color: hsl(200, 24%, 40%);
+    font-size: 15px;
+    border-color: hsl(203, 41%, 72%);
+    border-radius: 10px;
+    height: 40px;
+    width: 300px;
+
+}
+
+.mortgage-amount span {
+    display: inline;
+}
+
+/* layout for mortgage interest or term */
+.mortgage-term {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+    /* justify-content: space-between; */
+    row-gap: 15px;
+}
+
+.mortgage-term-input {
+    display: flex; 
+    flex-direction: column;
+    width: 150px;
+    font-size: 15px;
+    border-radius: 10px;
+
+}
+
+.mortgage-term-input>span {
+    margin-bottom: 5px;
+    color: hsl(203, 41%, 72%);
+}
+
+.mortgage-rate-input {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+ .mortgage-rate-input > span{
+    margin-bottom: 5px;
+    color: hsl(203, 41%, 72%);
+} 
+
+.mortgage-type {
+    display: flex;
+    flex-direction: column;
+}
+
+.submit-btn {
+    background-color: hsl(61, 70%, 52%);
+    color: white;
+    width: 200px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border-style: none;
+    margin-top: 15px;
+    position: relative;
+}
+
+.fa-calculator {
+    margin-left: auto;
+    /* position: absolute; */
+}
+
+.second-slide {
+    background-color: hsl(200, 24%, 40%);
+    color: white;
+    border-bottom-left-radius: 30px;
+    padding: 1rem;
+    width: 400px;
+}
+
+.size {
+    font-size: 20px;
+    font-family: sans-serif;
+    margin: 20px 0px;
+}
+
+.results {
+    color: hsl(203, 41%, 72%);
+    font-size: 15px;
+}
+
+.monthly-box {
+    background-color: hsl(202, 55%, 16%);
+    color: hsl(0, 0%, 100%);
+    margin: 2rem 0;
+    border-radius: 10px;
+    border-top: hsl(61, 70%, 52%);
+    padding: 1rem 0;
+    padding-left: 10px;
+}
+
+.num {
+    font-size: 30px;
+    font-weight: 400;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: hsl(61, 70%, 52%);
+    margin: 15px 0;
+}
+
+.num2{
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: hsl(61, 70%, 52%);
+}

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="./mortgage.css">
+
+  <title>Mortgage repayment calculator</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+
+<body>
+
+  <section class="container">
+
+    <!-- first section of the calculator -->
+    <section class="first-slide">
+
+      <div class="mortgage-calc">
+        <p class="calc">Mortgage Calculator</p>
+        <p class="clear-tag"> Clear All</p>
+      </div>
+
+      <div class="mortgage-amount">
+        <span>Mortgage Amount</span>
+        <input type="number" name="mortgage-amount" id="mortgage-amount">
+      </div>
+
+      <div class="mortgage-term">
+        <div class="mortgage-term-input"> <span>Mortgage Term</span>
+          <input type="number" name="mortgage-term" id="mortgage-term"> <span>Years</span>
+        </div>
+        <div class="mortgage-rate-input"><span>Interest Rate</span>
+          <i class="fa-solid fa-sterling-sign"></i>
+          <input type="number" name="interest-rate" id="interest-rate">
+        </div>
+
+      </div>
+
+      <!-- input to choose the mortgage type -->
+      <div class="mortage-type">
+        <p>Mortgage Type</p>
+        <input type="checkbox" placeholder="repayment" name="Repayments" id="repayment">
+        <input type="checkbox" placeholder="Interest Only" name="Interest Only" id="Interest Only">
+      </div>
+       
+
+      <div class="submit-section">
+        
+        <button class="submit-btn" type="submit"> <span> <i class="fa-solid fa-calculator"></i></span>Calculate Repayments </button>
+      </div>
+    
+
+    </section>
+
+
+    <!-- section to display the result of the calculation -->
+    <section class="second-slide">
+
+      <p class="size">Your results</p>
+
+      <p class="results"> Your results are shown below based on the information </br> you provided.
+        To adjust the results, edit the form and </br> click “calculate repayments” again.</p>
+
+      <div class="monthly-box">
+        <p class="monthly-text">Your monthly repayments</p>
+
+        <p class="num">£1,444.23</p>
+
+
+
+        <p>Total you'll repay over the term</p>
+        <p class="num2">£234,567.45</p>
+
+      </div>
+
+    </section>
+  </section>
+
+
+
+  <script src="./mortgage.js"></script>
+</body>
+
+</html>
