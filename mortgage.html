@@ -47,18 +47,28 @@
         <p class="clear-tag"> Clear All</p>
       </div>
 
+       <!-- Mortgage Amount section -->
       <div class="mortgage-amount">
         <span>Mortgage Amount</span>
-        <input type="number" name="mortgage-amount" id="mortgage-amount">
+        <div class="input-wrapper">
+          <i class="fa-solid fa-sterling-sign"></i>
+          <input type="number" name="mortgage-amount" id="mortgage-amount">
+        </div>
       </div>
 
       <div class="mortgage-term">
         <div class="mortgage-term-input"> <span>Mortgage Term</span>
-          <input type="number" name="mortgage-term" id="mortgage-term"> <span>Years</span>
+          <div class="input-wrapper">
+            <input type="number" name="mortgage-term" id="mortgage-term">
+            <i class="fa-solid fa-calendar"></i>
+          </div>
+          <span>Years</span>
         </div>
         <div class="mortgage-rate-input"><span>Interest Rate</span>
-          <i class="fa-solid fa-sterling-sign"></i>
-          <input type="number" name="interest-rate" id="interest-rate">
+          <div class="input-wrapper">
+            <i class="fa-solid fa-sterling-sign"></i>
+            <input type="number" name="interest-rate" id="interest-rate">
+          </div>
         </div>
 
       </div>
@@ -66,8 +76,8 @@
       <!-- input to choose the mortgage type -->
       <div class="mortage-type">
         <p>Mortgage Type</p>
-        <input type="checkbox" placeholder="repayment" name="Repayments" id="repayment">
-        <input type="checkbox" placeholder="Interest Only" name="Interest Only" id="Interest Only">
+        <input type="radio" placeholder="repayment" name="Repayments" id="repayment">
+        <input type="radio" placeholder="Interest Only" name="Interest Only" id="Interest Only">
       </div>
        
 
