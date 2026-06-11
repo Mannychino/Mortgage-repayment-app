@@ -20,11 +20,11 @@ button.addEventListener('click', function() {
 })
 
 
-//  let mortgage = 230 * 40;
+ let mortgage = 230 * 40;
 
  
-//     document.querySelector("button").addEventListener('click', function () {
-//       alert(mortgage + mortgage);
+  document.querySelector("button").addEventListener('click', function () {
+     alert(mortgage + mortgage);
 
       
 

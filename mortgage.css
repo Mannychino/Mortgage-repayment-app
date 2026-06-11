@@ -132,9 +132,15 @@ body {
 } 
 
 .mortgage-type {
-    display: flex;
-    flex-direction: column;
+    display: block;
+    
 }
+
+.mortgage-type .input-wrapper{
+    display: block;
+    border: 5px solid ;
+}
+
 
 .submit-btn {
     background-color: hsl(61, 70%, 52%);
